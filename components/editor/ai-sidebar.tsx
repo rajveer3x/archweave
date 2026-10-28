@@ -172,7 +172,7 @@ export function AiSidebar({ projectId, onClose }: AiSidebarProps) {
           </div>
           <div className="flex flex-col">
             <h3 className="font-semibold text-zinc-100 text-sm">AI Workspace</h3>
-            <p className="text-xs text-zinc-500">Collaborate with Ghost AI</p>
+            <p className="text-xs text-zinc-500">Collaborate with ArchWeave AI</p>
           </div>
         </div>
         <Button

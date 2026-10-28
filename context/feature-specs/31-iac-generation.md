@@ -40,7 +40,7 @@ Add functionality to generate Infrastructure as Code (IaC) — specifically Terr
 ### Scope Limits
 
 - Only target AWS as the cloud provider for the initial implementation to keep the AI prompt focused.
-- Do not attempt to execute or validate the Terraform code on the server. Ghost AI's job is just to generate the starting point for the user.
+- Do not attempt to execute or validate the Terraform code on the server. ArchWeave's job is just to generate the starting point for the user.
 - Keep the generated Terraform in a single `main.tf` structure rather than trying to generate complex multi-file modules.
 
 ### Check When Done

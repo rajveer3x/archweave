@@ -10,7 +10,7 @@ export default function SignInPage() {
         {/* Logo */}
         <div className="flex items-center gap-3 font-medium text-lg">
           <div className="w-6 h-6 bg-[#2CE4D6] rounded-md" />
-          <span>Ghost AI</span>
+          <span>ArchWeave</span>
         </div>
         
         {/* Main Content */}
@@ -20,7 +20,7 @@ export default function SignInPage() {
           </h1>
           
           <p className="text-zinc-400 text-[17px] mb-12 max-w-[460px] leading-relaxed">
-            Describe your architecture in plain English. Ghost AI maps it to a shared canvas your whole team can refine in real time.
+            Describe your architecture in plain English. ArchWeave maps it to a shared canvas your whole team can refine in real time.
           </p>
           
           <div className="space-y-8">
@@ -64,7 +64,7 @@ export default function SignInPage() {
 
         {/* Footer */}
         <div className="text-zinc-600 text-sm font-medium">
-          © 2026 Ghost AI. All rights reserved.
+          © 2026 ArchWeave. All rights reserved.
         </div>
       </div>
 

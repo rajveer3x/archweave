@@ -51,6 +51,7 @@ Update this file whenever the current phase, active feature, or implementation s
 - Implemented Export Canvas Image (Spec 30): Added an export button to canvas controls, leveraging `html-to-image` to capture the React Flow viewport and trigger a native browser PNG download with explicitly configured dark background settings.
 - Fixed a layout bug where the main canvas expanded under the left and right sidebars, causing floating controls (CanvasControls, MiniMap, ShapePanel) to be hidden from view.
 - Restored `proxy.ts` (Next.js 16 Clerk middleware) which was inadvertently deleted in commit `09849a7`, resolving runtime 500 server errors on Vercel deployment.
+- Rebranded project from Ghost AI to ArchWeave across package configs, auth flows, layout metadata, AI workspace UI, and documentation.
 
 ## In Progress
 

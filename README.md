@@ -1,4 +1,4 @@
-# Ghost AI 👻
+# ArchWeave 🕸️
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.3-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
@@ -7,11 +7,11 @@
 [![Clerk](https://img.shields.io/badge/Clerk-Auth-6c47ff)](https://clerk.com/)
 [![React Flow](https://img.shields.io/badge/React_Flow-Nodes-ff0072)](https://reactflow.dev/)
 
-Ghost AI is a real-time collaborative system design workspace powered by AI. Seamlessly bridge the gap between idea and architecture: describe your system in plain English, and watch as an autonomous AI agent maps it out onto a shared, interactive canvas. Collaborate in real-time with your team to refine the design, and instantly generate a comprehensive Markdown technical specification from your resulting architecture graph.
+ArchWeave is a real-time collaborative system design workspace powered by AI. Seamlessly bridge the gap between idea and architecture: describe your system in plain English, and watch as an autonomous AI agent maps it out onto a shared, interactive canvas. Collaborate in real-time with your team to refine the design, and instantly generate a comprehensive Markdown technical specification from your resulting architecture graph.
 
 ## ✨ Features
 
-- **🤖 AI-Powered Architecture Generation**: Describe your desired system architecture in natural language, and let Ghost AI (powered by Trigger.dev and Groq) automatically generate and wire up the nodes and edges on your canvas.
+- **🤖 AI-Powered Architecture Generation**: Describe your desired system architecture in natural language, and let ArchWeave (powered by Trigger.dev and Groq) automatically generate and wire up the nodes and edges on your canvas.
 - **⚡ Real-Time Collaborative Canvas**: Work alongside your team in a shared workspace powered by Liveblocks and React Flow. Enjoy live cursors, presence indicators, real-time node/edge editing, and custom styling.
 - **📚 Starter Templates Library**: Kickstart your design process with a curated library of prebuilt system design templates (e.g., monolith, microservices, event-driven, serverless) that can be imported instantly.
 - **📄 Automated Spec Generation**: Instantly convert your visual canvas graph into a detailed, persistent Markdown technical specification document, ready to be reviewed or downloaded.
@@ -20,7 +20,7 @@ Ghost AI is a real-time collaborative system design workspace powered by AI. Sea
 
 ## 🛠 Tech Stack
 
-Ghost AI is built on a modern, robust, and scalable tech stack:
+ArchWeave is built on a modern, robust, and scalable tech stack:
 
 - **Framework**: Next.js 16 (App Router) + TypeScript
 - **Styling & UI**: Tailwind CSS + shadcn/ui
@@ -48,8 +48,8 @@ You will need accounts for the following services to obtain the required API key
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/your-username/ghost-ai.git
-cd ghost-ai
+git clone https://github.com/rajveer3x/archweave.git
+cd archweave
 npm install
 ```
 
@@ -95,7 +95,7 @@ npx prisma generate
 
 ### 4. Run the Development Servers
 
-Ghost AI relies on the Next.js frontend and the Trigger.dev background worker running simultaneously.
+ArchWeave relies on the Next.js frontend and the Trigger.dev background worker running simultaneously.
 
 **Terminal 1 (Trigger.dev Worker):**
 ```bash
@@ -113,7 +113,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to start bui
 
 ## ☁️ Deployment
 
-Ghost AI is designed to be easily deployed on **Vercel** with **Trigger.dev Cloud** managing background tasks.
+ArchWeave is designed to be easily deployed on **Vercel** with **Trigger.dev Cloud** managing background tasks.
 
 1. **Deploy Frontend:** Push your repository to GitHub and import it into Vercel. Ensure all production environment variables are properly set in the Vercel dashboard.
 2. **Deploy Background Tasks:** Deploy your AI generation workflows to Trigger.dev Cloud:
@@ -124,7 +124,7 @@ Ghost AI is designed to be easily deployed on **Vercel** with **Trigger.dev Clou
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to open an issue or submit a pull request if you'd like to improve Ghost AI.
+Contributions are welcome! Feel free to open an issue or submit a pull request if you'd like to improve ArchWeave.
 
 ## 📜 License
 
